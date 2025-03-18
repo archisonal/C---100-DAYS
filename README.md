@@ -10,11 +10,49 @@ Welcome to the **100 DAYS OF C++ CHALLENGE**! This repository documents my journ
 2. **Day1_p2.cpp** → Handling Space-Separated Inputs
 
 ---
+## 📅 Day 2: More on Input/Output & Arithmetic Operations
+
+### ✅ Problem Statement 1: Student Details  
+Write a C++ program that takes the following student details as input, one per line:  
+- **Name** (Character Array)  
+- **Roll No.** (int)  
+- **Age** (int)  
+- **Gender** (char)  
+- **Class** (int)  
+- **Semester** (int)  
+- **Percentage** (float)  
+
+The program should then display the same details in the same sequence.  
+
+📌 *Concepts Used:* Character Arrays, Data Types, Input/Output.  
+
+### ✅ Problem Statement 2: Arithmetic Operations  
+Write a C++ program that:  
+1. Takes **two numbers** as input in a space-separated manner.  
+2. Computes and displays the **sum, subtraction, and division** of the two numbers.  
+
+📌 *Concepts Used:* Input Handling, Arithmetic Operations.  
+
+---
+
+📂 **New Files Added:**  
+- `Day2_p1.cpp` → Student Details Program  
+- `Day2_p2.cpp` → Arithmetic Operations Program  
+
 
 ## 📂 **Project Structure**
-📦 100-DAYS-C-CHALLENGE 
-      ┣ 📜 Day1_p1.cpp → Program 1: Basic Input & Output 
-            ┣ 📜 Day1_p1.exe → Compiled Executable for Program 1 
-      ┣ 📜 Day1_p2.cpp → Program 2: Handling Multiple Inputs 
-            ┣ 📜 Day1_p2.exe → Compiled Executable for Program 2 
-      ┗ 📜 README.md → You are here! 📖
+📁 C++ 100 DAYS/ 
+      │── 📂 .git/ 
+      │── 📂 100-DAYS-C-CHALLENGE/ 
+      │── 📂 Day 1/ 
+            │ ├── 📜 Day1_p1.cpp 🚀 (Basic I/O) 
+                  │ ├── 🛠️ Day1_p1.exe 
+            │ ├── 📜 Day1_p2.cpp ➕➖➗ (Arithmetic Operations) 
+                  │ ├── 🛠️ Day1_p2.exe 
+      │── 📂 Day 2/ 
+            │ ├── 📜 Day2_p1.cpp 🎓 (Student Details) 
+                  │ ├── 🛠️ Day2_p1.exe 
+            │ ├── 📜 Day2_p2.cpp 🔢 (Space-separated Arithmetic) 
+                  │ ├── 🛠️ Day2_p2.exe 
+      │── 📜 README.md 📖 
+      │── 📂 100-DAYS-C-CHALLENGE/

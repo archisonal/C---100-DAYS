@@ -1,3 +1,13 @@
+// Problem Statement-1
+// Write a C++ Program to enter the details of a student in a sequence i.e. "Name", "Roll No.", "Age", "Gender", "Class", "Semester" and "Percentage" in first 7 lines of input. After this, the output will display the same data in same sequence in next 7 line. Use the following data types with above said variables
+// Name: Character Array
+// Roll No.: int
+// Age: int
+// Gender: char
+// Class: int
+// Semester: int
+// Percentage: float
+
 #include <iostream>
 using namespace std;
 int main(){

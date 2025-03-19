@@ -38,7 +38,40 @@ Write a C++ program that:
 📂 **New Files Added:**  
 - `Day2_p1.cpp` → Student Details Program  
 - `Day2_p2.cpp` → Arithmetic Operations Program  
+---
 
+## Day 3 🚀  
+
+### Problem Statement-1 🎓  
+Write a C++ Program to compare two numbers using **relational operators**.  
+
+#### 📌 Input:  
+The user will enter two numbers.  
+
+#### 📌 Output:  
+The program will display the results of the following comparisons:  
+- **Equal to (`==`)**  
+- **Not equal to (`!=`)**  
+- **Greater than (`>`)**  
+- **Less than (`<`)**  
+- **Greater than or equal to (`>=`)**  
+- **Less than or equal to (`<=`)**  
+
+---
+
+### Problem Statement-2 ⚡  
+Write a C++ program to demonstrate **bitwise AND, OR, XOR, and shift operations**.  
+
+#### 📌 Input:  
+The user enters two numbers.  
+
+#### 📌 Output:  
+- **Bitwise AND (`&`)**  
+- **Bitwise OR (`|`)**  
+- **Bitwise XOR (`^`)**  
+- **Left Shift (`<< 1`)**  
+- **Right Shift (`>> 1`)**  
+---
 
 ## 📂 **Project Structure**
 📁 C++ 100 DAYS/ 
@@ -54,5 +87,10 @@ Write a C++ program that:
                   │ ├── 🛠️ Day2_p1.exe 
             │ ├── 📜 Day2_p2.cpp 🔢 (Space-separated Arithmetic) 
                   │ ├── 🛠️ Day2_p2.exe 
+      │── 📂 Day 3/  
+            │ ├── 📜 p1.cpp 🔍 (Relational Operators)  
+                  │ ├── 🛠️ p1.exe  
+            │ ├── 📜 p2.cpp ⚡ (Bitwise Operations)  
+                  │ ├── 🛠️ p2.exe  
       │── 📜 README.md 📖 
       │── 📂 100-DAYS-C-CHALLENGE/

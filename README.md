@@ -73,6 +73,27 @@ The user enters two numbers.
 - **Right Shift (`>> 1`)**  
 ---
 
+# 🚀 Day 4 - C++ Coding Challenges
+
+## 📌 Problem 1: Gross Salary Calculation
+Write a C++ program to calculate the **Gross Salary (GS)** based on the **Basic Salary (BS)**, **HRA**, **TA**, and **Gender ('M'/'F')**.
+
+- If **Gender = 'M'**, increase **BS** by **10%** before calculating GS.
+- If **Gender = 'F'**, increase **BS** by **20%** before calculating GS.
+
+**Formula:**
+GS = BS + HRA + TA
+
+---
+
+## 📌 Problem 2: Find Days in a Month
+Write a **C++ program** using a `switch` statement to enter the **month number** (1-12) and display the total **number of days**.
+
+- If the input is **2 (February)**, output should be **"28 or 29"**.
+- If the input is outside **1-12**, print **"Wrong input"**.
+
+
+
 ## 📂 **Project Structure**
 📁 C++ 100 DAYS/ 
       │── 📂 .git/ 
@@ -91,6 +112,10 @@ The user enters two numbers.
             │ ├── 📜 p1.cpp 🔍 (Relational Operators)  
                   │ ├── 🛠️ p1.exe  
             │ ├── 📜 p2.cpp ⚡ (Bitwise Operations)  
-                  │ ├── 🛠️ p2.exe  
+                  │ ├── 🛠️ p2.exe
+      │── 📂 Day 4/
+            │ ├── 📜 p1.cpp 🏢 (Gross Salary Calculation)
+                  │ ├── 🛠️ p1.exe
+            │ ├── 📜 p2.cpp 📅 (Days in a Month)
+                  │ ├── 🛠️ p2.exe
       │── 📜 README.md 📖 
-      │── 📂 100-DAYS-C-CHALLENGE/

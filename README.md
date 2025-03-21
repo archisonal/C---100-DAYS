@@ -92,8 +92,37 @@ Write a **C++ program** using a `switch` statement to enter the **month number**
 - If the input is **2 (February)**, output should be **"28 or 29"**.
 - If the input is outside **1-12**, print **"Wrong input"**.
 
+---
 
+# Coding Challenge: Day-5
 
+## Problem 1: Find the Nth Fibonacci Number Using a While Loop
+The Fibonacci sequence is a series of numbers where:  
+- F(1) = 1, F(2) = 1  
+- For n ≥ 3, F(n) = F(n-1) + F(n-2)  
+
+Given an integer `n` (1 ≤ n ≤ 50), write a **C++ program** that efficiently computes and prints the **Nth Fibonacci number** using a **while loop**.
+
+### Input Format:
+- A single integer `n` (position in the Fibonacci series).
+
+### Output Format:
+- Print the **Nth Fibonacci number**.
+
+---
+
+## Problem 2: Prime Number Checker Using a For Loop
+A **prime number** is a natural number greater than 1 that has exactly two divisors: **1 and itself**.  
+Given an integer `n` (2 ≤ n ≤ 10,000), write a **C++ program** to check whether `n` is a prime number using a **for loop**.
+
+### Input Format:
+- A single integer `n` (the number to check).
+
+### Output Format:
+- Print **"Prime"** if `n` is a prime number.
+- Print **"Not Prime"** if `n` is not a prime number.
+
+---
 ## 📂 **Project Structure**
 📁 C++ 100 DAYS/ 
       │── 📂 .git/ 
@@ -117,5 +146,10 @@ Write a **C++ program** using a `switch` statement to enter the **month number**
             │ ├── 📜 p1.cpp 🏢 (Gross Salary Calculation)
                   │ ├── 🛠️ p1.exe
             │ ├── 📜 p2.cpp 📅 (Days in a Month)
+                  │ ├── 🛠️ p2.exe
+      │── 📂 Day 5/
+            │ ├── 📜 p1.cpp 🔢 (Nth Fibonacci Number)
+                  │ ├── 🛠️ p1.exe
+            │ ├── 📜 p2.cpp 🔢 (Prime Number Checker)
                   │ ├── 🛠️ p2.exe
       │── 📜 README.md 📖 

@@ -123,6 +123,26 @@ Given an integer `n` (2 ≤ n ≤ 10,000), write a **C++ program** to check whet
 - Print **"Not Prime"** if `n` is not a prime number.
 
 ---
+# 🚀Coding Challenge: - Day 6
+
+## 📌 Problem Statements
+
+### 🔢 Problem 1: Digit Sum Function  
+Write a function digitSum(int n) that takes an integer n as input and returns the sum of its digits.  
+
+#### Example:  
+📝 **Input:**  123
+📝 **Output:** 6
+---
+
+### 🔄 Problem 2: Reverse a Number  
+Write a function reverseNumber(int n) that takes an integer n as input and returns its reverse.  
+
+#### Example:  
+📝 **Input:** 456 
+📝 **Output:** 654
+
+
 ## 📂 **Project Structure**
 📁 C++ 100 DAYS/ 
       │── 📂 .git/ 
@@ -151,5 +171,10 @@ Given an integer `n` (2 ≤ n ≤ 10,000), write a **C++ program** to check whet
             │ ├── 📜 p1.cpp 🔢 (Nth Fibonacci Number)
                   │ ├── 🛠️ p1.exe
             │ ├── 📜 p2.cpp 🔢 (Prime Number Checker)
+                  │ ├── 🛠️ p2.exe
+      │── 📂 Day 6/
+            │ ├── 📜 p1.cpp 🔢 (Digit Sum Function)
+                  │ ├── 🛠️ p1.exe
+            │ ├── 📜 p2.cpp 🔢 (Reverse a Number)
                   │ ├── 🛠️ p2.exe
       │── 📜 README.md 📖 

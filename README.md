@@ -141,6 +141,27 @@ Write a function reverseNumber(int n) that takes an integer n as input and retur
 #### Example:  
 📝 **Input:** 456 
 📝 **Output:** 654
+---
+
+# 🚀 C++ 100 DAYS - Day 7  
+
+## **1️⃣ Basic Calculator**  
+Write a function `basicCalculator(int a, int b, char op)` that performs arithmetic operations (`+`, `-`, `*`, `/`). If `op` is invalid or `b = 0` in division, return `0`.  
+
+**Constraints:**  
+-10⁵ ≤ a, b ≤ 10⁵  
+
+---
+
+## **2️⃣ Grading Students**  
+Round student grades based on these rules:  
+- If `grade < 38`, no rounding.  
+- If the next multiple of `5` is within `2` marks, round up.  
+
+**Constraints:**  
+1 ≤ n ≤ 60  
+0 ≤ grade ≤ 100  
+
 
 
 ## 📂 **Project Structure**
@@ -176,5 +197,10 @@ Write a function reverseNumber(int n) that takes an integer n as input and retur
             │ ├── 📜 p1.cpp 🔢 (Digit Sum Function)
                   │ ├── 🛠️ p1.exe
             │ ├── 📜 p2.cpp 🔢 (Reverse a Number)
+                  │ ├── 🛠️ p2.exe
+      │── 📂 Day 7/
+            │ ├── 📜 p1.cpp 🔢 (Basic Calculator)
+                  │ ├── 🛠️ p1.exe
+            │ ├── 📜 p2.cpp 🔢 (Grading Students)
                   │ ├── 🛠️ p2.exe
       │── 📜 README.md 📖 

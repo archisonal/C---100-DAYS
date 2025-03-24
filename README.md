@@ -161,6 +161,25 @@ Round student grades based on these rules:
 **Constraints:**  
 1 ≤ n ≤ 60  
 0 ≤ grade ≤ 100  
+---
+
+# 🚀 Day 8 - Problem Statements  
+
+## 🔺 1. Valid Triangle  
+**📜 Description:**  
+Determine if three given side lengths can form a valid triangle using the **triangle inequality theorem**.  
+
+**📌 Constraints:**  
+✅ 1 ≤ a, b, c ≤ 10⁵  
+
+---
+
+## ⭐ 2. Right Triangle Pattern  
+**📜 Description:**  
+Print a **right-angled triangle** pattern of `n` rows using `*`.  
+
+**📌 Constraints:**  
+✅ 1 ≤ n ≤ 100  
 
 
 
@@ -202,5 +221,10 @@ Round student grades based on these rules:
             │ ├── 📜 p1.cpp 🔢 (Basic Calculator)
                   │ ├── 🛠️ p1.exe
             │ ├── 📜 p2.cpp 🔢 (Grading Students)
+                  │ ├── 🛠️ p2.exe
+      │── 📂 Day 8/
+            │ ├── 📜 p1.cpp 📐 (Valid Triangle 1)
+                  │ ├── 🛠️ p1.exe
+            │ ├── 📜 p2.cpp 🗼 (Right Pyramid)
                   │ ├── 🛠️ p2.exe
       │── 📜 README.md 📖 

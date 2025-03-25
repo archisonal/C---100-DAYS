@@ -180,6 +180,31 @@ Print a **right-angled triangle** pattern of `n` rows using `*`.
 
 **📌 Constraints:**  
 ✅ 1 ≤ n ≤ 100  
+---
+
+📌 Day 9 - Problem Statements
+🧮 1. Average of Array
+Description:
+Given a 1-D integer array of size n, compute and return the integer average of all array elements.
+
+Constraints:
+✅ 1 ≤ n ≤ 10⁵
+✅ -10⁹ ≤ arr[i] ≤ 10⁹
+
+Output:
+A single integer representing the average of all elements.
+---
+🔢 2. Count Even and Odd
+Description:
+Given an array of integers, count the number of even and odd elements and return the difference:
+🟢 Even count - Odd count
+
+Constraints:
+✅ 1 ≤ n ≤ 10⁵
+✅ -10⁹ ≤ arr[i] ≤ 10⁹
+
+Output:
+A single integer representing the difference between even and odd count.
 
 
 
@@ -226,5 +251,10 @@ Print a **right-angled triangle** pattern of `n` rows using `*`.
             │ ├── 📜 p1.cpp 📐 (Valid Triangle 1)
                   │ ├── 🛠️ p1.exe
             │ ├── 📜 p2.cpp 🗼 (Right Pyramid)
+                  │ ├── 🛠️ p2.exe
+      │── 📂 Day 8/
+            │ ├── 📜 p1.cpp 🧮 (Average of Array)
+                  │ ├── 🛠️ p1.exe
+            │ ├── 📜 p2.cpp 🔢 (Count Even and Odd)
                   │ ├── 🛠️ p2.exe
       │── 📜 README.md 📖 

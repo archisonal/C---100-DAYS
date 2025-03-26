@@ -205,6 +205,42 @@ Constraints:
 
 Output:
 A single integer representing the difference between even and odd count.
+---
+
+## 🚀 Day 10  
+
+### 1️⃣ Row Sum of a Matrix  
+🔹 **Description:**  
+Given an N × M matrix containing both positive and negative integers, compute the sum of elements in each row and return the result as a 1D array.  
+
+🔹 **Constraints:**  
+📌 1 ≤ N, M ≤ 100  
+📌 -10⁶ ≤ arr[i][j] ≤ 10⁶  
+
+🔹 **Input Format:**  
+📝 The first line contains two integers N and M.  
+📝 The next N lines contain M space-separated integers representing the matrix elements.  
+
+🔹 **Output Format:**  
+📤 A single line containing N space-separated integers, where each integer represents the sum of elements in a row.  
+
+---  
+
+### 2️⃣ Identity Matrix Check  
+🔹 **Description:**  
+Check whether a given N × N matrix is an identity matrix, where all diagonal elements are 1 and all other elements are 0.  
+
+🔹 **Constraints:**  
+📌 1 ≤ N ≤ 100  
+📌 0 ≤ arr[i][j] ≤ 1  
+
+🔹 **Input Format:**  
+📝 A single integer N, representing the size of the matrix.  
+📝 The next N lines contain N space-separated integers representing the matrix elements.  
+
+🔹 **Output Format:**  
+📤 Return `"True"` if the matrix is an identity matrix, otherwise return `"False"`.  
+
 
 
 
@@ -252,9 +288,14 @@ A single integer representing the difference between even and odd count.
                   │ ├── 🛠️ p1.exe
             │ ├── 📜 p2.cpp 🗼 (Right Pyramid)
                   │ ├── 🛠️ p2.exe
-      │── 📂 Day 8/
+      │── 📂 Day 9/
             │ ├── 📜 p1.cpp 🧮 (Average of Array)
                   │ ├── 🛠️ p1.exe
             │ ├── 📜 p2.cpp 🔢 (Count Even and Odd)
+                  │ ├── 🛠️ p2.exe
+      │── 📂 Day 10/
+            │ ├── 📜 p1.cpp 🧮 (Row-wise Sum of a Matrix)
+                  │ ├── 🛠️ p1.exe
+            │ ├── 📜 p2.cpp 🔢 (Identity Matrix)
                   │ ├── 🛠️ p2.exe
       │── 📜 README.md 📖 

@@ -240,6 +240,35 @@ Check whether a given N × N matrix is an identity matrix, where all diagonal el
 
 🔹 **Output Format:**  
 📤 Return `"True"` if the matrix is an identity matrix, otherwise return `"False"`.  
+---
+
+day_10:
+  problems:
+    - title: "🔍 Find the Element"
+      description: "You need to implement a function that searches for a given target element in an array. If the element is found, return its index; otherwise, return -1."
+      constraints:
+        - "1 ≤ n ≤ 100"
+        - "-10^5 ≤ arr[i] ≤ 10^5"
+        - "-10^5 ≤ target ≤ 10^5"
+      input_format:
+        - "An integer n (size of the array)."
+        - "n space-separated integers (array elements)."
+        - "An integer target (element to search for)."
+      output_format:
+        - "Return the index of the target if found, otherwise return -1."
+
+- title: "📊 Sort the Array"
+      description: "Given an array of n integers, sort the array in ascending order using a comparison-based approach where adjacent elements are swapped if they are in the wrong order."
+      constraints:
+        - "1 ≤ n ≤ 1000"
+        - "-10^6 ≤ arr[i] ≤ 10^6"
+      input_format:
+        - "A single integer n (size of the array)."
+        - "n space-separated integers (array elements)."
+      output_format:
+        - "Return the sorted array as a new array of integers."
+---
+
 
 
 
@@ -297,5 +326,10 @@ Check whether a given N × N matrix is an identity matrix, where all diagonal el
             │ ├── 📜 p1.cpp 🧮 (Row-wise Sum of a Matrix)
                   │ ├── 🛠️ p1.exe
             │ ├── 📜 p2.cpp 🔢 (Identity Matrix)
+                  │ ├── 🛠️ p2.exe
+      │── 📂 Day 11/
+            │ ├── 📜 p1.cpp 🧮 (Finding Element in Array)
+                  │ ├── 🛠️ p1.exe
+            │ ├── 📜 p2.cpp 🔢 (Sorting By Swapping)
                   │ ├── 🛠️ p2.exe
       │── 📜 README.md 📖 

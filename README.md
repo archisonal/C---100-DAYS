@@ -269,6 +269,39 @@ day_10:
         - "Return the sorted array as a new array of integers."
 ---
 
+📅 Day 10  
+
+### 1️⃣ Reverse String  
+**Description:**  
+You are given a string `s` consisting of only uppercase and lowercase English letters. Your task is to reverse the string and return the reversed version.  
+
+**Constraints:**  
+- 1 ≤ |s| ≤ 1000 (length of string)  
+- The string consists of only lowercase and uppercase English letters (a-z, A-Z).  
+
+**Input Format:**  
+- A single string `s` (without spaces).  
+
+**Output Format:**  
+- Return the reversed string.  
+
+---
+
+### 2️⃣ Count Vowels  
+**Description:**  
+You are given a string `s` consisting of only lowercase English letters. Your task is to count the number of vowels (`a, e, i, o, u`) present in the string and return the count.  
+
+**Constraints:**  
+- 1 ≤ |s| ≤ 1000 (length of string).  
+- The string consists only of lowercase English letters (a-z).  
+
+**Input Format:**  
+- A single string `s` (in lowercase, without spaces).  
+
+**Output Format:**  
+- Return an integer representing the number of vowels in the string. Return `0` if there are no vowels.  
+
+
 
 
 
@@ -331,5 +364,10 @@ day_10:
             │ ├── 📜 p1.cpp 🧮 (Finding Element in Array)
                   │ ├── 🛠️ p1.exe
             │ ├── 📜 p2.cpp 🔢 (Sorting By Swapping)
+                  │ ├── 🛠️ p2.exe
+      │── 📂 Day 12/
+            │ ├── 📜 p1.cpp 🔡 (Reverse String)
+                  │ ├── 🛠️ p1.exe
+            │ ├── 📜 p2.cpp 🔡 (Count Vowels)
                   │ ├── 🛠️ p2.exe
       │── 📜 README.md 📖 

@@ -242,7 +242,7 @@ Check whether a given N × N matrix is an identity matrix, where all diagonal el
 📤 Return `"True"` if the matrix is an identity matrix, otherwise return `"False"`.  
 ---
 
-day_10:
+day_11:
   problems:
     - title: "🔍 Find the Element"
       description: "You need to implement a function that searches for a given target element in an array. If the element is found, return its index; otherwise, return -1."
@@ -269,7 +269,7 @@ day_10:
         - "Return the sorted array as a new array of integers."
 ---
 
-📅 Day 10  
+📅 Day 12  
 
 ### 1️⃣ Reverse String  
 **Description:**  

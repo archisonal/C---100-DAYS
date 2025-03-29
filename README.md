@@ -299,7 +299,57 @@ You are given a string `s` consisting of only lowercase English letters. Your ta
 - A single string `s` (in lowercase, without spaces).  
 
 **Output Format:**  
-- Return an integer representing the number of vowels in the string. Return `0` if there are no vowels.  
+- Return an integer representing the number of vowels in the string. Return `0` if there are no vowels.
+---
+
+Day_13:
+  📅 Day: "13"
+  📌 Problem Statements:
+
+  🔹 PS 1: Modify Array with x
+      📖 Description: 
+        "You are given an integer x and an array arr of n integers. Your task is to:
+         1️⃣ Increase the value of x by 5.
+         2️⃣ Create a new array where each element is the sum of the corresponding element in the original array and the modified x.
+         3️⃣ Return the new array without modifying the original array."
+      📥 Input Format:
+        - "The first line contains an integer x."
+        - "The second line contains an integer n, the size of the array."
+        - "The third line contains n space-separated integers representing the original array, arr."
+      ⚙️ Constraints:
+        - "1 ≤ n ≤ 100"
+        - "-10^6 ≤ x, arr[i] ≤ 10^6"
+      📤 Output Format:
+        - "Print n space-separated integers representing the transformed array."
+      📝 Example:
+        🟢 Input:
+          - "0"
+          - "4"
+          - "10 20 30 40"
+        🔴 Output:
+          - "15 25 35 45"
+
+  🔹 PS 2: Armstrong Number
+      📖 Description: 
+        "A number is called an Armstrong number if the sum of its digits, each raised to the power of the number of digits, equals the number itself."
+      📥 Input Format:
+        - "A single positive integer N."
+      ⚙️ Constraints:
+        - "1 ≤ N ≤ 10^9"
+      📤 Output Format:
+        - "Print 'True' if N is an Armstrong number."
+        - "Otherwise, print 'False'."
+      📝 Example:
+        🟢 Input:
+          - "153"
+        🔴 Output:
+          - "True"
+
+  📂 File Structure:
+    - 📜 README.yml
+    - 📝 ps1_modify_array.cpp
+    - 📝 ps2_armstrong_number.cpp
+
 
 
 
@@ -369,5 +419,10 @@ You are given a string `s` consisting of only lowercase English letters. Your ta
             │ ├── 📜 p1.cpp 🔡 (Reverse String)
                   │ ├── 🛠️ p1.exe
             │ ├── 📜 p2.cpp 🔡 (Count Vowels)
+                  │ ├── 🛠️ p2.exe
+      │── 📂 Day 13/
+            │ ├── 📜 p1.cpp ➕ (Increase Array by Value)
+                  │ ├── 🛠️ p1.exe
+            │ ├── 📜 p2.cpp 🔢 (Armstrong Number)
                   │ ├── 🛠️ p2.exe
       │── 📜 README.md 📖 
